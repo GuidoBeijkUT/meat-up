@@ -26,7 +26,6 @@
 		CEDFCA3423A90DC200F32CB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEDFCA3723A90DC200F32CB6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CEDFCA3A23A90DC200F32CB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Home.storyboard; sourceTree = "<group>"; };
-		CEDFCA3C23A90DC200F32CB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEDFCA4223A90EF900F32CB6 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		CEDFCA4823A9102300F32CB6 /* MyMeatUpsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMeatUpsViewController.swift; sourceTree = "<group>"; };
 		CEDFCA4A23A9103200F32CB6 /* MyMeatUpsViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyMeatUpsViewController.storyboard; sourceTree = "<group>"; };
@@ -34,6 +33,7 @@
 		CEDFCA4E23A9104A00F32CB6 /* Join.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Join.storyboard; sourceTree = "<group>"; };
 		CEDFCA5023A9106400F32CB6 /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
 		CEDFCA5223A9106D00F32CB6 /* Create.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Create.storyboard; sourceTree = "<group>"; };
+		CEDFCA7B23A9228600F32CB6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,13 +66,13 @@
 		CEDFCA2D23A90DC000F32CB6 /* mEAT-Up */ = {
 			isa = PBXGroup;
 			children = (
+				CEDFCA7B23A9228600F32CB6 /* Info.plist */,
 				CEDFCA4723A90F4D00F32CB6 /* Create */,
 				CEDFCA4623A90F4800F32CB6 /* Join */,
 				CEDFCA4523A90F2000F32CB6 /* MyMeatUps */,
 				CEDFCA4423A90F0300F32CB6 /* Home */,
 				CEDFCA2E23A90DC000F32CB6 /* AppDelegate.swift */,
 				CEDFCA3423A90DC200F32CB6 /* Assets.xcassets */,
-				CEDFCA3C23A90DC200F32CB6 /* Info.plist */,
 				CEDFCA3623A90DC200F32CB6 /* Preview Content */,
 			);
 			path = "mEAT-Up";
@@ -341,6 +341,7 @@
 				DEVELOPMENT_TEAM = XLA6GPVACU;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "mEAT-Up/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -361,6 +362,7 @@
 				DEVELOPMENT_TEAM = XLA6GPVACU;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "mEAT-Up/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
