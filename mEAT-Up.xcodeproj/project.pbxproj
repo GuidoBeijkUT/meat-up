@@ -8,22 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		CEDFCA2F23A90DC000F32CB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDFCA2E23A90DC000F32CB6 /* AppDelegate.swift */; };
-		CEDFCA3123A90DC000F32CB6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDFCA3023A90DC000F32CB6 /* SceneDelegate.swift */; };
-		CEDFCA3323A90DC000F32CB6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDFCA3223A90DC000F32CB6 /* ContentView.swift */; };
 		CEDFCA3523A90DC200F32CB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEDFCA3423A90DC200F32CB6 /* Assets.xcassets */; };
 		CEDFCA3823A90DC200F32CB6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEDFCA3723A90DC200F32CB6 /* Preview Assets.xcassets */; };
-		CEDFCA3B23A90DC200F32CB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDFCA3923A90DC200F32CB6 /* LaunchScreen.storyboard */; };
+		CEDFCA3B23A90DC200F32CB6 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDFCA3923A90DC200F32CB6 /* Home.storyboard */; };
+		CEDFCA4323A90EF900F32CB6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDFCA4223A90EF900F32CB6 /* HomeViewController.swift */; };
+		CEDFCA4923A9102300F32CB6 /* MyMeatUpsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDFCA4823A9102300F32CB6 /* MyMeatUpsViewController.swift */; };
+		CEDFCA4B23A9103200F32CB6 /* MyMeatUpsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDFCA4A23A9103200F32CB6 /* MyMeatUpsViewController.storyboard */; };
+		CEDFCA4D23A9104200F32CB6 /* JoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDFCA4C23A9104200F32CB6 /* JoinViewController.swift */; };
+		CEDFCA4F23A9104A00F32CB6 /* Join.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDFCA4E23A9104A00F32CB6 /* Join.storyboard */; };
+		CEDFCA5123A9106400F32CB6 /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDFCA5023A9106400F32CB6 /* CreateViewController.swift */; };
+		CEDFCA5323A9106D00F32CB6 /* Create.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDFCA5223A9106D00F32CB6 /* Create.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CEDFCA2B23A90DC000F32CB6 /* mEAT-Up.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mEAT-Up.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEDFCA2E23A90DC000F32CB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CEDFCA3023A90DC000F32CB6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CEDFCA3223A90DC000F32CB6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CEDFCA3423A90DC200F32CB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEDFCA3723A90DC200F32CB6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		CEDFCA3A23A90DC200F32CB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEDFCA3A23A90DC200F32CB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Home.storyboard; sourceTree = "<group>"; };
 		CEDFCA3C23A90DC200F32CB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEDFCA4223A90EF900F32CB6 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CEDFCA4823A9102300F32CB6 /* MyMeatUpsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMeatUpsViewController.swift; sourceTree = "<group>"; };
+		CEDFCA4A23A9103200F32CB6 /* MyMeatUpsViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyMeatUpsViewController.storyboard; sourceTree = "<group>"; };
+		CEDFCA4C23A9104200F32CB6 /* JoinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinViewController.swift; sourceTree = "<group>"; };
+		CEDFCA4E23A9104A00F32CB6 /* Join.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Join.storyboard; sourceTree = "<group>"; };
+		CEDFCA5023A9106400F32CB6 /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
+		CEDFCA5223A9106D00F32CB6 /* Create.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Create.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,11 +66,12 @@
 		CEDFCA2D23A90DC000F32CB6 /* mEAT-Up */ = {
 			isa = PBXGroup;
 			children = (
+				CEDFCA4723A90F4D00F32CB6 /* Create */,
+				CEDFCA4623A90F4800F32CB6 /* Join */,
+				CEDFCA4523A90F2000F32CB6 /* MyMeatUps */,
+				CEDFCA4423A90F0300F32CB6 /* Home */,
 				CEDFCA2E23A90DC000F32CB6 /* AppDelegate.swift */,
-				CEDFCA3023A90DC000F32CB6 /* SceneDelegate.swift */,
-				CEDFCA3223A90DC000F32CB6 /* ContentView.swift */,
 				CEDFCA3423A90DC200F32CB6 /* Assets.xcassets */,
-				CEDFCA3923A90DC200F32CB6 /* LaunchScreen.storyboard */,
 				CEDFCA3C23A90DC200F32CB6 /* Info.plist */,
 				CEDFCA3623A90DC200F32CB6 /* Preview Content */,
 			);
@@ -73,6 +84,42 @@
 				CEDFCA3723A90DC200F32CB6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CEDFCA4423A90F0300F32CB6 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CEDFCA3923A90DC200F32CB6 /* Home.storyboard */,
+				CEDFCA4223A90EF900F32CB6 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CEDFCA4523A90F2000F32CB6 /* MyMeatUps */ = {
+			isa = PBXGroup;
+			children = (
+				CEDFCA4823A9102300F32CB6 /* MyMeatUpsViewController.swift */,
+				CEDFCA4A23A9103200F32CB6 /* MyMeatUpsViewController.storyboard */,
+			);
+			path = MyMeatUps;
+			sourceTree = "<group>";
+		};
+		CEDFCA4623A90F4800F32CB6 /* Join */ = {
+			isa = PBXGroup;
+			children = (
+				CEDFCA4C23A9104200F32CB6 /* JoinViewController.swift */,
+				CEDFCA4E23A9104A00F32CB6 /* Join.storyboard */,
+			);
+			path = Join;
+			sourceTree = "<group>";
+		};
+		CEDFCA4723A90F4D00F32CB6 /* Create */ = {
+			isa = PBXGroup;
+			children = (
+				CEDFCA5023A9106400F32CB6 /* CreateViewController.swift */,
+				CEDFCA5223A9106D00F32CB6 /* Create.storyboard */,
+			);
+			path = Create;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,9 +180,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEDFCA3B23A90DC200F32CB6 /* LaunchScreen.storyboard in Resources */,
+				CEDFCA3B23A90DC200F32CB6 /* Home.storyboard in Resources */,
+				CEDFCA4B23A9103200F32CB6 /* MyMeatUpsViewController.storyboard in Resources */,
 				CEDFCA3823A90DC200F32CB6 /* Preview Assets.xcassets in Resources */,
 				CEDFCA3523A90DC200F32CB6 /* Assets.xcassets in Resources */,
+				CEDFCA5323A9106D00F32CB6 /* Create.storyboard in Resources */,
+				CEDFCA4F23A9104A00F32CB6 /* Join.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,21 +196,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEDFCA4923A9102300F32CB6 /* MyMeatUpsViewController.swift in Sources */,
 				CEDFCA2F23A90DC000F32CB6 /* AppDelegate.swift in Sources */,
-				CEDFCA3123A90DC000F32CB6 /* SceneDelegate.swift in Sources */,
-				CEDFCA3323A90DC000F32CB6 /* ContentView.swift in Sources */,
+				CEDFCA5123A9106400F32CB6 /* CreateViewController.swift in Sources */,
+				CEDFCA4D23A9104200F32CB6 /* JoinViewController.swift in Sources */,
+				CEDFCA4323A90EF900F32CB6 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CEDFCA3923A90DC200F32CB6 /* LaunchScreen.storyboard */ = {
+		CEDFCA3923A90DC200F32CB6 /* Home.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				CEDFCA3A23A90DC200F32CB6 /* Base */,
 			);
-			name = LaunchScreen.storyboard;
+			name = Home.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -296,7 +348,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "GuidoBeijk.mEAT-Up";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -316,7 +368,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "GuidoBeijk.mEAT-Up";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
