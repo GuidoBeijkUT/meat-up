@@ -23,4 +23,9 @@ class HomeViewContoller: UIViewController {
     @IBAction func JoinMeatUpButton(_ sender: Any) {
     }
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        print("test")
+    }
+    
 }
