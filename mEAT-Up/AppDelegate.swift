@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             self.window = window
             
             let mainstoryboard = UIStoryboard(name: "Home", bundle: nil)
-            let newViewcontroller = mainstoryboard.instantiateViewController(withIdentifier: "HomeViewController") as! HomeViewContoller
+            let newViewcontroller = mainstoryboard.instantiateViewController(withIdentifier: "HomeViewController") as! HomeViewController
             window.rootViewController = newViewcontroller
         // Override point for customization after application launch.
         return true
