@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="m8h-ia-2ma">
     <device id="ipad11_0rounded" orientation="portrait" layout="fullscreen" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
@@ -16,22 +16,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hvx-Ao-iS6">
-                                <rect key="frame" x="394" y="424" width="46" height="30"/>
+                                <rect key="frame" x="394" y="424" width="46" height="84"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <action selector="CreateMeatUpButtonPressed:" destination="01J-lp-oVM" eventType="touchUpInside" id="1rS-wi-4EK"/>
-                                    <segue destination="LTJ-Zd-h1X" kind="show" identifier="createSegue" id="0cF-RD-UTJ"/>
+                                    <segue destination="LTJ-Zd-h1X" kind="show" id="OK0-iA-iU6"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p15-eW-0KU">
-                                <rect key="frame" x="394" y="568" width="46" height="57"/>
+                                <rect key="frame" x="263" y="568" width="267" height="57"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <action selector="JoinMeatUpButton:" destination="01J-lp-oVM" eventType="touchUpInside" id="1fj-Jk-UgJ"/>
-                                    <action selector="JoinMeatUpButtonPressed:" destination="01J-lp-oVM" eventType="touchUpInside" id="j3R-Su-Db5"/>
-                                    <segue destination="0fY-6J-Q36" kind="show" identifier="joinSegue" id="GLo-vE-jzG"/>
+                                    <segue destination="0fY-6J-Q36" kind="show" id="Yd5-wo-os1"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8lu-3n-d2F" userLabel="error">
@@ -45,13 +42,11 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <connections>
-                        <outlet property="CreateMeatUpButton" destination="hvx-Ao-iS6" id="ZLX-bq-uHR"/>
-                    </connections>
+                    <navigationItem key="navigationItem" id="cpO-eZ-uCS"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="52.517985611510795" y="375"/>
+            <point key="canvasLocation" x="806.47482014388493" y="374.8743718592965"/>
         </scene>
         <!--JoinViewController-->
         <scene sceneID="Jn1-d7-rvd">
@@ -61,7 +56,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8KX-gw-wsP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="516" y="415"/>
+            <point key="canvasLocation" x="1269.4244604316548" y="414.57286432160805"/>
         </scene>
         <!--CreateViewController-->
         <scene sceneID="nPz-do-VDI">
@@ -71,7 +66,25 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Eg7-wH-aLN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="516" y="323"/>
+            <point key="canvasLocation" x="1269.7841726618706" y="322.61306532663315"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="VSb-bE-rf9">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="m8h-ia-2ma" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="5rZ-9U-rnH">
+                        <rect key="frame" x="0.0" y="0.0" width="834" height="50"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="01J-lp-oVM" kind="relationship" relationship="rootViewController" id="qJo-gr-BRS"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OE4-Y1-zvD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.517985611510795" y="374.8743718592965"/>
         </scene>
     </scenes>
 </document>

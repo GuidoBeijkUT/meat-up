@@ -7,26 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D3ABE959CAD6E0E997064E7 /* Pods_mEAT_Up.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E3D726012DA81C0F251A40F /* Pods_mEAT_Up.framework */; };
+		CE2F3A2D23C36C70000873BD /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = CE2F3A2C23C36C70000873BD /* Podfile */; };
 		CEDFCA2F23A90DC000F32CB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDFCA2E23A90DC000F32CB6 /* AppDelegate.swift */; };
 		CEDFCA3523A90DC200F32CB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEDFCA3423A90DC200F32CB6 /* Assets.xcassets */; };
 		CEDFCA3823A90DC200F32CB6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEDFCA3723A90DC200F32CB6 /* Preview Assets.xcassets */; };
 		CEDFCA3B23A90DC200F32CB6 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDFCA3923A90DC200F32CB6 /* Home.storyboard */; };
-		CEDFCA4323A90EF900F32CB6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDFCA4223A90EF900F32CB6 /* HomeViewController.swift */; };
 		CEDFCA4923A9102300F32CB6 /* MyMeatUpsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDFCA4823A9102300F32CB6 /* MyMeatUpsViewController.swift */; };
 		CEDFCA4B23A9103200F32CB6 /* MyMeatUpsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDFCA4A23A9103200F32CB6 /* MyMeatUpsViewController.storyboard */; };
 		CEDFCA4D23A9104200F32CB6 /* JoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDFCA4C23A9104200F32CB6 /* JoinViewController.swift */; };
 		CEDFCA4F23A9104A00F32CB6 /* Join.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDFCA4E23A9104A00F32CB6 /* Join.storyboard */; };
 		CEDFCA5123A9106400F32CB6 /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDFCA5023A9106400F32CB6 /* CreateViewController.swift */; };
 		CEDFCA5323A9106D00F32CB6 /* Create.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDFCA5223A9106D00F32CB6 /* Create.storyboard */; };
+		CEDFCA8023A92AAE00F32CB6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDFCA7F23A92AAE00F32CB6 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		349DFB6327BAEBDB62627AFF /* Pods-mEAT-Up.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mEAT-Up.debug.xcconfig"; path = "Target Support Files/Pods-mEAT-Up/Pods-mEAT-Up.debug.xcconfig"; sourceTree = "<group>"; };
+		3E3D726012DA81C0F251A40F /* Pods_mEAT_Up.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mEAT_Up.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C48DA4D6384C4A691B546238 /* Pods-mEAT-Up.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mEAT-Up.release.xcconfig"; path = "Target Support Files/Pods-mEAT-Up/Pods-mEAT-Up.release.xcconfig"; sourceTree = "<group>"; };
+		CE2F3A2C23C36C70000873BD /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		CEDFCA2B23A90DC000F32CB6 /* mEAT-Up.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mEAT-Up.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEDFCA2E23A90DC000F32CB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEDFCA3423A90DC200F32CB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEDFCA3723A90DC200F32CB6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CEDFCA3A23A90DC200F32CB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Home.storyboard; sourceTree = "<group>"; };
-		CEDFCA4223A90EF900F32CB6 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		CEDFCA4823A9102300F32CB6 /* MyMeatUpsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMeatUpsViewController.swift; sourceTree = "<group>"; };
 		CEDFCA4A23A9103200F32CB6 /* MyMeatUpsViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyMeatUpsViewController.storyboard; sourceTree = "<group>"; };
 		CEDFCA4C23A9104200F32CB6 /* JoinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinViewController.swift; sourceTree = "<group>"; };
@@ -34,6 +39,7 @@
 		CEDFCA5023A9106400F32CB6 /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
 		CEDFCA5223A9106D00F32CB6 /* Create.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Create.storyboard; sourceTree = "<group>"; };
 		CEDFCA7B23A9228600F32CB6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEDFCA7F23A92AAE00F32CB6 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,17 +47,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D3ABE959CAD6E0E997064E7 /* Pods_mEAT_Up.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5745B20AB09A7BE312B14E2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E3D726012DA81C0F251A40F /* Pods_mEAT_Up.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C1C1F2BCAFFB13A350DC769 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				349DFB6327BAEBDB62627AFF /* Pods-mEAT-Up.debug.xcconfig */,
+				C48DA4D6384C4A691B546238 /* Pods-mEAT-Up.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CEDFCA2223A90DC000F32CB6 = {
 			isa = PBXGroup;
 			children = (
+				CE2F3A2C23C36C70000873BD /* Podfile */,
 				CEDFCA2D23A90DC000F32CB6 /* mEAT-Up */,
 				CEDFCA2C23A90DC000F32CB6 /* Products */,
+				9C1C1F2BCAFFB13A350DC769 /* Pods */,
+				5745B20AB09A7BE312B14E2E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,12 +94,12 @@
 		CEDFCA2D23A90DC000F32CB6 /* mEAT-Up */ = {
 			isa = PBXGroup;
 			children = (
-				CEDFCA7B23A9228600F32CB6 /* Info.plist */,
 				CEDFCA4723A90F4D00F32CB6 /* Create */,
 				CEDFCA4623A90F4800F32CB6 /* Join */,
 				CEDFCA4523A90F2000F32CB6 /* MyMeatUps */,
 				CEDFCA4423A90F0300F32CB6 /* Home */,
 				CEDFCA2E23A90DC000F32CB6 /* AppDelegate.swift */,
+				CEDFCA7B23A9228600F32CB6 /* Info.plist */,
 				CEDFCA3423A90DC200F32CB6 /* Assets.xcassets */,
 				CEDFCA3623A90DC200F32CB6 /* Preview Content */,
 			);
@@ -90,7 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				CEDFCA3923A90DC200F32CB6 /* Home.storyboard */,
-				CEDFCA4223A90EF900F32CB6 /* HomeViewController.swift */,
+				CEDFCA7F23A92AAE00F32CB6 /* HomeViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -129,9 +157,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEDFCA3F23A90DC200F32CB6 /* Build configuration list for PBXNativeTarget "mEAT-Up" */;
 			buildPhases = (
+				788EE78CF2B7E7557697FA1D /* [CP] Check Pods Manifest.lock */,
 				CEDFCA2723A90DC000F32CB6 /* Sources */,
 				CEDFCA2823A90DC000F32CB6 /* Frameworks */,
 				CEDFCA2923A90DC000F32CB6 /* Resources */,
+				843B7DF67918C9B47FD6C1F3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -185,22 +215,65 @@
 				CEDFCA3823A90DC200F32CB6 /* Preview Assets.xcassets in Resources */,
 				CEDFCA3523A90DC200F32CB6 /* Assets.xcassets in Resources */,
 				CEDFCA5323A9106D00F32CB6 /* Create.storyboard in Resources */,
+				CE2F3A2D23C36C70000873BD /* Podfile in Resources */,
 				CEDFCA4F23A9104A00F32CB6 /* Join.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		788EE78CF2B7E7557697FA1D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mEAT-Up-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		843B7DF67918C9B47FD6C1F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mEAT-Up/Pods-mEAT-Up-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mEAT-Up/Pods-mEAT-Up-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mEAT-Up/Pods-mEAT-Up-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CEDFCA2723A90DC000F32CB6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEDFCA8023A92AAE00F32CB6 /* HomeViewController.swift in Sources */,
 				CEDFCA4923A9102300F32CB6 /* MyMeatUpsViewController.swift in Sources */,
 				CEDFCA2F23A90DC000F32CB6 /* AppDelegate.swift in Sources */,
 				CEDFCA5123A9106400F32CB6 /* CreateViewController.swift in Sources */,
 				CEDFCA4D23A9104200F32CB6 /* JoinViewController.swift in Sources */,
-				CEDFCA4323A90EF900F32CB6 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +407,7 @@
 		};
 		CEDFCA4023A90DC200F32CB6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 349DFB6327BAEBDB62627AFF /* Pods-mEAT-Up.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -355,6 +429,7 @@
 		};
 		CEDFCA4123A90DC200F32CB6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C48DA4D6384C4A691B546238 /* Pods-mEAT-Up.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
